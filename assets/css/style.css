@@ -11,12 +11,13 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #2b4d6b;
 }
 
 header {
     padding: 20px;
-    background-color: #2b4d6b;
     display: flex;
+    background-color: #2b4d6b;
     justify-content: space-between;
     position: -webkit-sticky;
     position: sticky;
@@ -67,7 +68,7 @@ header nav ul li a:hover {
 /* Hero Section */
 
 .hero-banner {
-    height: 1000px;
+    height: 800px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -79,13 +80,46 @@ header nav ul li a:hover {
 }
 
 .hero-cta {
-    height: 100px;
-    padding: 30px;
-    color: #17007e;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.2;
+    width: 100%;
+    margin: 3%;
+    position: relative;
+}
+
+.hero-cta h2 {
     position: absolute;
     bottom: 0;
     left: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+/* About Me */
+.section-title {
+    font-size: 32px;
+    color: #ffffff;
+    border-bottom: 3px solid;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: var(--primary-color);
+}
+
+.about {
+    margin: 20px;
+    padding: 10px;
+}
+
+.about p{
+    line-height: 2;
+    color: #ffffff;
+    width: 80%;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
 }
