@@ -60,6 +60,8 @@ header nav ul li a:hover {
     color: #2b4d6b;
     border-radius: 15px;
     text-shadow: none;
+    text-decoration: underline;
+    text-decoration-color:#2b4d6b;
 }
 
 /* Hero Section */
@@ -76,3 +78,14 @@ header nav ul li a:hover {
     background-attachment: fixed;
 }
 
+.hero-cta {
+    height: 100px;
+    padding: 30px;
+    color: #17007e;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
