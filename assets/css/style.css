@@ -99,7 +99,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url("../images/hero-cover.png");
+    background-image: url("../images/hero-cover.PNG");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
