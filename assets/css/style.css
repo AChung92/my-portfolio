@@ -65,6 +65,29 @@ header nav ul li a:hover {
     text-decoration-color:#2b4d6b;
 }
 
+.contact nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(21, 19, 175, 0.5);
+}
+
+.contact nav ul li a:hover {
+    background: #ffffff;
+    color: #2b4d6b;
+    border-radius: 15px;
+    text-shadow: none;
+    text-decoration-color:#2b4d6b;
+}
 /* Hero Section */
 
 .hero-banner {
@@ -176,3 +199,4 @@ header nav ul li a:hover {
     background-color: #2b4d6b;
     color: #ffffff;
 }
+
