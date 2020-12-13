@@ -324,6 +324,11 @@ header nav ul li a:hover {
         font-size: 15px;
     }
 
+    .hero-banner {
+        display: flex;
+        justify-content: flex-start;
+        background-position: right;
+
 }
 
 @media screen and (max-width: 768px) {
