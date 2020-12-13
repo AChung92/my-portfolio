@@ -225,20 +225,21 @@ header nav ul li a:hover {
     position: relative;
     overflow: hidden;
     font-weight: bold;
+    background-color: #ffffff;
+    color: #2b4d6b;
+    bottom: 10px;
 }
 
 .work-img h3 {
     position: relative;
     font-size: 24px;
     margin-bottom: 5px;
-    color: #000000;
 }
 
 .work-img span {
     position: relative;
     font-size: 16px;
     margin-bottom: 5px;
-    color:#000000;
 }
 
 .runbuddy-img {
@@ -248,18 +249,19 @@ header nav ul li a:hover {
     position: relative;
     overflow: hidden;
     font-weight: bold;
+    background-color: #ffffff;
+    color: #2b4d6b;
+    bottom: 10px;
 }
 .runbuddy-img h3 {
     position: relative;
     font-size: 28px;
-    color:  #000000;
 }
 
 .runbuddy-img span {
     position: relative;
     font-size: 20px;
     margin-bottom: 5px;
-    color: #000000;
 }
 
 .horiseon-img {
@@ -269,20 +271,21 @@ header nav ul li a:hover {
     position: relative;
     overflow: hidden;
     font-weight: bold;
+    background-color: #ffffff;
+    color: #2b4d6b;
+    bottom: 10px;
 }
 
 .horiseon-img h3 {
     position: relative;
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 5px;
-    color:  #000000;
 }
 
 .horiseon-img span {
     position: relative;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 5px;
-    color: #000000;
 }
 
 
@@ -339,6 +342,10 @@ header nav ul li a:hover {
         grid-row: 2/ span 3;
     }
 
+    .work-img {
+        bottom: 5px;
+    }
+
     .work-img h3{ 
         width: auto;
         font-size: 10px;
@@ -350,6 +357,10 @@ header nav ul li a:hover {
         margin-bottom: 0;
     }
 
+    .runbuddy-img {
+        bottom: 5px;
+    }
+
     .runbuddy-img h3 {
         font-size: 14px;
     }
@@ -357,6 +368,10 @@ header nav ul li a:hover {
     .runbuddy-img span {
         font-size: 11px;
         margin-bottom: 0px;
+    }
+
+    .horiseon-img {
+        bottom: 5px;
     }
 
     .horiseon-img h3 {
