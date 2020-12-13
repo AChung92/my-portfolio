@@ -190,31 +190,98 @@ header nav ul li a:hover {
     grid-row: 1 / span 2;
     background-image: url("../images/run-buddy.jpg");
     background-size: cover;
+    text-decoration: none;
 }
 
 .grid-item.horiseon {
     grid-row: 2/ span 3;
     background-image: url("../images/horiseon.png");
     background-size: cover;
+    text-decoration: none;
 }
 
 .grid-item.project-1{
     background-image: url("../images/project1.jpg");
     background-size: cover;
+    text-decoration: none;
 }
 .grid-item.project-2 {
     background-image: url("../images/project2.jpg");
     background-size: cover;
+    text-decoration: none;
 }
 
 .grid-item.project-3 {
     background-image: url("../images/project3.jpg");
     background-size: cover;
+    text-decoration: none;
 }
 
-.contain {
-    background-color: #2b4d6b;
-    color: #ffffff;
+.work-img {
+    width: 45%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.work-img h3 {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.work-img span {
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color:#000000;
+}
+
+.runbuddy-img {
+    width: 35%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+}
+.runbuddy-img h3 {
+    position: relative;
+    font-size: 28px;
+    color:  #000000;
+}
+
+.runbuddy-img span {
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.horiseon-img {
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.horiseon-img h3 {
+    position: relative;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color:  #000000;
+}
+
+.horiseon-img span {
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
 }
 
 
