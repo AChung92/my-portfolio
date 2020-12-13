@@ -182,11 +182,14 @@ header nav ul li a:hover {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+    cursor: pointer;
 }
 
 .grid-item.run-buddy {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+    background-image: url("../images/run-buddy.jpg");
+    background-size: cover;
 }
 
 .grid-item.horiseon {
@@ -195,8 +198,12 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
+.grid-item.project-1 {
+    background-image: url("../images/project1.jpg");
+    background-size: cover;
+}
+
 .contain {
     background-color: #2b4d6b;
     color: #ffffff;
 }
-
