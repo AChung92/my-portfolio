@@ -1,3 +1,4 @@
+
 :root {
     
 }
@@ -178,7 +179,7 @@ header nav ul li a:hover {
 }
 
 .grid-item {
-    border: 2px solid #000000;
+    border: 2px solid #2b4d6b;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -318,4 +319,53 @@ header nav ul li a:hover {
         font-size: 15px;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-container {
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,100px);
+        border: 2px solid #000000;
+        grid-gap: 5px;
+    }
+    .grid-item.run-buddy {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+
+    .grid-item.horiseon {
+        grid-row: 2/ span 3;
+    }
+
+    .work-img h3{ 
+        width: auto;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    
+    .work-img span {
+        font-size: 5px;
+        margin-bottom: 0;
+    }
+
+    .runbuddy-img h3 {
+        font-size: 14px;
+    }
+    
+    .runbuddy-img span {
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+
+    .horiseon-img h3 {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .horiseon-img span {
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
 }
