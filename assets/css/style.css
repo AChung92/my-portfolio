@@ -94,8 +94,6 @@ header nav ul li a:hover {
     color: #ffffff;
 }
 
-
-/* About Me */
 .section-title {
     font-size: 32px;
     color: #ffffff;
@@ -107,7 +105,12 @@ header nav ul li a:hover {
 }
 
 .primary-border {
-    border-color: var(--primary-color);
+    border-color: #ffffff;
+}
+
+.secondary-border {
+    border-color: #2b4d6b;
+    color: #2b4d6b;
 }
 
 .about {
@@ -122,4 +125,54 @@ header nav ul li a:hover {
     font-size: 16px;
     margin: 0 auto;
     text-align: center;
+}
+
+/* Work Section */
+
+.page-section {
+    color:#2b4d6b;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.grid-container {
+    background: #2b4d6b;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+    border: 2px solid #000000;
+    color: #ffffff;
+    font-size: 18px;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    border: 2px solid #000000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.grid-item.run-buddy {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.grid-item.horiseon {
+    grid-row: 2/ span 3;
+    background-image: url("../images/horiseon.png");
+    background-size: cover;
+}
+
+.contain {
+    background-color: #2b4d6b;
+    color: #ffffff;
 }
