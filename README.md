@@ -8,7 +8,7 @@ Portfolio of Alex Chung's Work
 * Screenshot
 
 ## Overview
-This is a website dedicated to my portfolio. I will be continually adding to the webpage, as I gain more web development knowledge. Also, I will continue to update my "work" section, as I complete more projects.
+This is a website dedicated to my portfolio. I will be continually adding to the webpage, as I gain more web development knowledge. Also, I will continue to update my "work" section, as I complete more projects. In the below screenshot, you can see the hover feature in the header.
 
 ## Technologies
 Project created with:
@@ -22,3 +22,5 @@ To visit my portfolio, please visit the below.
 [Alex Chung's Portfolio](https://achung92.github.io/my-portfolio/)
 
 ## Screenshot
+
+![screenshot](assets/images/screenshot.jpg)
