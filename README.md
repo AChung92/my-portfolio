@@ -15,5 +15,5 @@ Project Created with:
 * CSS
 
 ## Status
-
+Please note hyperlinks to Projects 1,2, and 3 will not lead anywhere. This will be added, as I complete projects in the future.
 ## Screenshot
